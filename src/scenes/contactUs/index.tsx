@@ -24,7 +24,7 @@ const ContactUs = ({
     }
   }
 
-  const inputStyles = 'mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white'
+  const inputStyles = 'mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white outline-0'
 
   return (
     <section id='contactus' className='mx-auto w-5/6 pt-24 pb-32'>
