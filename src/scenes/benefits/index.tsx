@@ -43,7 +43,7 @@ const Benefits = ({
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)")
 
   return (
-    <section id='benefits' className='mx-auto min-h-full w-5/6 py-20'>
+    <section id='benefits' className='mx-auto min-h-full w-5/6 py-24'>
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
       >
