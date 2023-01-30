@@ -24,7 +24,7 @@ const Navbar = ({
 
   return (
     <nav>
-      <div className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}>
+      <div className={`${navbarBackground} ${flexBetween} fixed top-0 z-40 w-full py-6`}>
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             <img src={Logo} alt="logo" />
@@ -55,7 +55,7 @@ const Navbar = ({
       </div>
 
       {!isAboveMediumScreens && isMenuToggled && (
-        <div className='fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl'>
+        <div className='fixed right-0 bottom-0 z-50 h-full w-[300px] bg-primary-100 drop-shadow-xl'>
           <div className="flex justify-end py-8 px-14">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
               <XMarkIcon className='h-6 w-6 text-gray-400' />
